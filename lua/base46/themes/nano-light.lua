@@ -43,14 +43,14 @@ M.base_30 = {
 }
 
 M.base_16 = {
-  base00 = "#FFFFFF",
-  base01 = "#E0E0E0",
-  base02 = "#C1C1C1",
-  base03 = "#A3A3A3",
-  base04 = "#848484",
-  base05 = "#666666",
-  base06 = "#474747",
-  base07 = "#282828",
+  base00 = M.base_30.black,
+  base01 = M.base_30.black2,
+  base02 = M.base_30.one_bg,
+  base03 = M.base_30.grey,
+  base04 = M.base_30.grey_fg,
+  base05 = M.base_30.white,
+  base06 = M.base_30.folder_bg,
+  base07 = M.base_30.deep_black,
   base08 = M.base_30.purple,
   base09 = M.base_30.faded_grey,
   base0A = M.base_30.purple,
