@@ -23,9 +23,9 @@ M.base_30 = {
   baby_pink = "#b55dc4",
   pink = "#AB47BC",
   line = "#e0e0e0", -- for lines like vertsplit
-  green = "#7f946d",
+  green = "#66BB6A",
   vibrant_green = "#75c279",
-  nord_blue = "#5d748b",
+  nord_blue = "#42A5F5",
   blue = "#42A5F5",
   yellow = "#d0b22b",
   sun = "#E2C12F",
@@ -71,10 +71,15 @@ M.polish_hl = {
     ["@namespace"] = { fg = M.base_30.deep_black },
     ["@symbol"] = { fg = M.base_30.purple },
     ["@keyword"] = { fg = M.base_30.purple },
+    ["@method.call"] = { bold = true },
   },
 
   telescope = {
     TelescopeMatching = { fg = M.base_30.purple, bg = M.base_30.one_bg2 },
+  },
+
+  nvdash = {
+    NvDashAscii = { fg = M.base_30.gray_fg, bg = M.base_30.purple },
   },
 }
 
